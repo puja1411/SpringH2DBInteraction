@@ -32,6 +32,7 @@ public class DatabaseDemoApplication implements CommandLineRunner {
 		LOGGER.info("Insert->{}", dao.insert(new Person(10004,"Keshav","Bangalore")));
 		LOGGER.info("updating 10003 ->{}", dao.update(new Person(10003,"Payal","NYC")));
 		LOGGER.info("All Users->{}", dao.findAll());
+	
 
 	}
 
