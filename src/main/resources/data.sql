@@ -1,43 +1,42 @@
-create table person
-(
-   id integer not null,
-   name varchar (255) not null,
-   location varchar (255),
-   primary key (id)
-);
-Insert into person
+Insert into PERSON
 (
    ID,
    NAME,
-   LOCATION
+   LOCATION,
+   AGE
 )
 values
 (
    10001,
    'Puja',
-   'Bihar'
+   'Bihar',
+    12
 );
-Insert into person
+Insert into PERSON
 (
    ID,
    NAME,
-   LOCATION
+   LOCATION,
+   AGE
 )
 values
 (
    10003,
    'Payal',
-   'Delhi'
+   'Delhi',
+   13
 );
-Insert into person
+Insert into PERSON
 (
    ID,
    NAME,
-   LOCATION
+   LOCATION,
+   AGE
 )
 values
 (
    10002,
    'Piyush',
-   'Bangalore'
+   'Bangalore',
+    14
 );

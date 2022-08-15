@@ -1,0 +1,5 @@
+com\in28minutes\database\databasedemo\jdbc\PersonJdbcDao.class
+com\in28minutes\database\databasedemo\entity\Person.class
+com\in28minutes\database\databasedemo\jpa\PersonJpaRepository.class
+com\in28minutes\database\databasedemo\DatabaseDemoApplication.class
+com\in28minutes\database\databasedemo\JPADemoApplication.class

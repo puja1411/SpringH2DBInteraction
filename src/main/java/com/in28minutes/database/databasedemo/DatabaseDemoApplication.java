@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.in28minutes.database.databasedemo.entity.Person;
 import com.in28minutes.database.databasedemo.jdbc.PersonJdbcDao;
 
-@SpringBootApplication
+//@SpringBootApplication
 public class DatabaseDemoApplication implements CommandLineRunner {
 
 	private static Logger LOGGER = LoggerFactory.getLogger(DatabaseDemoApplication.class);
@@ -29,8 +29,8 @@ public class DatabaseDemoApplication implements CommandLineRunner {
 		LOGGER.info("All Users->{}", dao.findAll());
 		LOGGER.info("User id 10001->{}", dao.findById(10001));
 //		LOGGER.info("User id 10001->{}", dao.deleteById(10001));
-		LOGGER.info("Insert->{}", dao.insert(new Person(10004,"Keshav","Bangalore")));
-		LOGGER.info("updating 10003 ->{}", dao.update(new Person(10003,"Payal","NYC")));
+		//LOGGER.info("Insert->{}", dao.insert(new Person(10004,"Keshav","Bangalore")));
+		//LOGGER.info("updating 10003 ->{}", dao.update(new Person(10003,"Payal","NYC")));
 		LOGGER.info("All Users->{}", dao.findAll());
 	
 
